@@ -264,8 +264,6 @@ int main(){
 
 	print_huffman(head);
 	
-
-
     getch();
     return 0;
 }
