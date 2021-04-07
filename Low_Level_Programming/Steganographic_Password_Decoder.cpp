@@ -107,8 +107,5 @@ Ortak:		INC ESI						//resim_org'un indisi arttiriliyor
 			MOV[EBX], '3'
 			INC EBX
 			MOV [EBX],'\0'				// sifremizi attigimiz dizideki string ifadenin bittigini belirtmek icin sonuna NULL karakter ekliyoruz
-
-
-
 	}
 }
