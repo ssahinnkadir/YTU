@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-input_genes = pd.read_table("psoriasis_10genes.txt")
+input_genes = pd.read_table("C:/YOURFULLDIRECTORY/psoriasis_10genes.txt")
 
 stats=pd.DataFrame()
 
