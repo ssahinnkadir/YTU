@@ -59,7 +59,7 @@ void SteganografiBul(int n, int resim_org, int resim_ste, int steganografi_adres
 			MOV EBX, steganografi_adres // steganografi_adres dizisinin adresi EBX regiserina alindi, adres integer geldigi icin EBX kullanildi 
 			MOV ESI, resim_org			// resim_org dizisinin adresi ESI registerina alindi
 			MOV EDI, resim_ste			// resim_ste dizisinin adresi EDI registerina alindi
-			MOV ECX, n					// dizi boyutu, dongu icin CX e atildi
+			MOV ECX, n					// dizi boyutu, dongu icin CX e atildi.
 
 Loop_OS: 	MOV AL,[EDI]				//EDI adresindeki sayi AL'ye atildi
 			CMP AL,[ESI]				//ESI adresindeki sayi deger ile AL registerina alinmis olan deger, sifre kontrolu icin kiyaslaniyor
